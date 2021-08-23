@@ -1,13 +1,10 @@
 ip_set:
     test1:
         description: my_test1
-        ips: 
-            - "10.10.10.10/32"
-            - "172.16.0.32/32"
+        ips: ["10.10.10.10/32", "172.16.0.32/32"]
     test2:
         description: my_test
-        ips: 
-            - "1.1.1.1/32"
+        ips: ["1.1.1.1/32"]
 
 firewall_rule: 
     test1:
